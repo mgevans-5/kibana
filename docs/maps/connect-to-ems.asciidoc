@@ -30,6 +30,11 @@ NOTE: Coordinate map  and region map visualizations do not support `map.proxyEla
 You might experience EMS connection issues if your Kibana server or browser are on a private network or
 behind a firewall. If this happens, you can disable the EMS connection to avoid unnecessary EMS requests.
 
+=== DESCRIBE IMPACT HERE.
+
+When you disable the EMS connection you will no longer be able to ????
+
+
 To disable EMS, change your <<settings, kibana.yml>> file.
 
 . Set `map.includeElasticMapsService` to `false` to turn off the EMS connection.
